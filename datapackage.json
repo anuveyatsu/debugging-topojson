@@ -1,0 +1,902 @@
+{
+  "datahub": {
+    "findability": "published",
+    "hash": "c1003294166101ba07ea17a2613028ab",
+    "modified": "3 weeks ago",
+    "owner": "examples",
+    "ownerid": "examples",
+    "stats": {
+      "bytes": 5745285,
+      "rowcount": 8742,
+      "prettyBytes": "5MB"
+    }
+  },
+  "id": "examples/vega-views-tutorial-topojson",
+  "name": "vega-views-tutorial-topojson",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 65572,
+      "datahub": {
+        "derivedFrom": [
+          "flights-airport"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\\r\\n",
+        "quoteChar": "\\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "0724b14e863eda89f2aa78ca4f7732d7",
+      "name": "flights-airport",
+      "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_csv/data/flights-airport_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 5366,
+      "schema": {
+        "fields": [
+          {
+            "name": "origin",
+            "type": "string"
+          },
+          {
+            "name": "destination",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "count",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "",
+      "description": "",
+      "alternates": [
+        {
+          "bytes": 65572,
+          "datahub": {
+            "type": "source/tabular"
+          },
+          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
+          "encoding": "utf-8",
+          "format": "csv",
+          "name": "flights-airport",
+          "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport/data/flights-airport.csv",
+          "profile": "data-resource",
+          "schema": {
+            "fields": [
+              {
+                "name": "origin",
+                "type": "string"
+              },
+              {
+                "name": "destination",
+                "type": "string"
+              },
+              {
+                "name": "count",
+                "type": "number"
+              }
+            ]
+          },
+          "prettyBytes": "64kB"
+        },
+        {
+          "bytes": 70939,
+          "datahub": {
+            "derivedFrom": [
+              "flights-airport"
+            ],
+            "type": "derived/preview"
+          },
+          "dialect": {
+            "delimiter": ",",
+            "doubleQuote": true,
+            "lineTerminator": "\\r\\n",
+            "quoteChar": "\\"",
+            "skipInitialSpace": false
+          },
+          "dpp:streamedFrom": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_csv/data/flights-airport_csv.csv",
+          "encoding": "utf-8",
+          "forView": [
+            "datahub-preview-flights-airport_csv_preview"
+          ],
+          "format": "json",
+          "hash": "6b9b35ed39532e6db83d30dd10046e01",
+          "name": "flights-airport_csv_preview",
+          "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_csv_preview/data/flights-airport_csv_preview.json",
+          "profile": "data-resource",
+          "rowcount": 7366,
+          "schema": {
+            "fields": [
+              {
+                "name": "origin",
+                "type": "string"
+              },
+              {
+                "name": "destination",
+                "type": "string"
+              },
+              {
+                "decimalChar": ".",
+                "groupChar": "",
+                "name": "count",
+                "type": "number"
+              }
+            ]
+          },
+          "prettyBytes": "69kB"
+        },
+        {
+          "bytes": 65572,
+          "datahub": {
+            "derivedFrom": [
+              "flights-airport"
+            ],
+            "type": "derived/json"
+          },
+          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
+          "encoding": "utf-8",
+          "format": "json",
+          "hash": "c557eb92139cb86b77c6f9363e7c6bbb",
+          "name": "flights-airport_json",
+          "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_json/data/flights-airport_json.json",
+          "profile": "data-resource",
+          "rowcount": 5366,
+          "schema": {
+            "fields": [
+              {
+                "name": "origin",
+                "type": "string"
+              },
+              {
+                "name": "destination",
+                "type": "string"
+              },
+              {
+                "name": "count",
+                "type": "number"
+              }
+            ]
+          },
+          "prettyBytes": "64kB"
+        }
+      ],
+      "prettyBytes": "64kB"
+    },
+    {
+      "bytes": 210365,
+      "datahub": {
+        "derivedFrom": [
+          "airports"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\\r\\n",
+        "quoteChar": "\\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "87161615c082d48d58887450f664ca92",
+      "name": "airports",
+      "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_csv/data/airports_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 3376,
+      "schema": {
+        "fields": [
+          {
+            "name": "iata",
+            "type": "any"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "latitude",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "longitude",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "",
+      "description": "",
+      "alternates": [
+        {
+          "bytes": 210365,
+          "datahub": {
+            "type": "source/tabular"
+          },
+          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
+          "encoding": "utf-8",
+          "format": "csv",
+          "name": "airports",
+          "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports/data/airports.csv",
+          "profile": "data-resource",
+          "schema": {
+            "fields": [
+              {
+                "name": "iata",
+                "type": "any"
+              },
+              {
+                "name": "name",
+                "type": "string"
+              },
+              {
+                "name": "city",
+                "type": "string"
+              },
+              {
+                "name": "state",
+                "type": "string"
+              },
+              {
+                "name": "country",
+                "type": "string"
+              },
+              {
+                "name": "latitude",
+                "type": "number"
+              },
+              {
+                "name": "longitude",
+                "type": "number"
+              }
+            ]
+          },
+          "prettyBytes": "205kB"
+        },
+        {
+          "bytes": 213742,
+          "datahub": {
+            "derivedFrom": [
+              "airports"
+            ],
+            "type": "derived/preview"
+          },
+          "dialect": {
+            "delimiter": ",",
+            "doubleQuote": true,
+            "lineTerminator": "\\r\\n",
+            "quoteChar": "\\"",
+            "skipInitialSpace": false
+          },
+          "dpp:streamedFrom": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_csv/data/airports_csv.csv",
+          "encoding": "utf-8",
+          "forView": [
+            "datahub-preview-airports_csv_preview"
+          ],
+          "format": "json",
+          "hash": "3a361d0adc10776b5aaab2beae5574be",
+          "name": "airports_csv_preview",
+          "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_csv_preview/data/airports_csv_preview.json",
+          "profile": "data-resource",
+          "rowcount": 5376,
+          "schema": {
+            "fields": [
+              {
+                "name": "iata",
+                "type": "any"
+              },
+              {
+                "name": "name",
+                "type": "string"
+              },
+              {
+                "name": "city",
+                "type": "string"
+              },
+              {
+                "name": "state",
+                "type": "string"
+              },
+              {
+                "name": "country",
+                "type": "string"
+              },
+              {
+                "decimalChar": ".",
+                "groupChar": "",
+                "name": "latitude",
+                "type": "number"
+              },
+              {
+                "decimalChar": ".",
+                "groupChar": "",
+                "name": "longitude",
+                "type": "number"
+              }
+            ]
+          },
+          "prettyBytes": "209kB"
+        },
+        {
+          "bytes": 210365,
+          "datahub": {
+            "derivedFrom": [
+              "airports"
+            ],
+            "type": "derived/json"
+          },
+          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
+          "encoding": "utf-8",
+          "format": "json",
+          "hash": "da46ba5f6603ab653fe6cec822a3f389",
+          "name": "airports_json",
+          "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_json/data/airports_json.json",
+          "profile": "data-resource",
+          "rowcount": 3376,
+          "schema": {
+            "fields": [
+              {
+                "name": "iata",
+                "type": "any"
+              },
+              {
+                "name": "name",
+                "type": "string"
+              },
+              {
+                "name": "city",
+                "type": "string"
+              },
+              {
+                "name": "state",
+                "type": "string"
+              },
+              {
+                "name": "country",
+                "type": "string"
+              },
+              {
+                "name": "latitude",
+                "type": "number"
+              },
+              {
+                "name": "longitude",
+                "type": "number"
+              }
+            ]
+          },
+          "prettyBytes": "205kB"
+        }
+      ],
+      "prettyBytes": "205kB"
+    },
+    {
+      "bytes": 643236,
+      "datahub": {
+        "type": "derived/zip"
+      },
+      "description": "Compressed versions of dataset. Includes normalized CSV and JSON data with original data and datapackage.json.",
+      "dpp:streamedFrom": "/tmp/tmp89fqdkuv/vega-views-tutorial-topojson.zip",
+      "encoding": "utf-8",
+      "format": "zip",
+      "name": "vega-views-tutorial-topojson_zip",
+      "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:vega-views-tutorial-topojson_zip/data/vega-views-tutorial-topojson.zip",
+      "profile": "data-resource",
+      "prettyBytes": "628kB"
+    },
+    {
+      "bytes": 642361,
+      "datahub": {
+        "type": "source/non-tabular"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/995d88a444b371520cceb4e61481060b#.topojson",
+      "encoding": "utf-8",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "name": "states",
+      "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:states/data/us-10m.json",
+      "profile": "data-resource",
+      "prettyBytes": "627kB"
+    }
+  ],
+  "sources": [
+    {
+      "name": "vega-datasets",
+      "title": "vega-datasets",
+      "web": "https://github.com/vega/vega-datasets"
+    }
+  ],
+  "title": "Vega Graph Spec Tutorial - US Airports",
+  "views": [
+    {
+      "name": "airports-map-interactive",
+      "resources": [
+        0,
+        1,
+        2
+      ],
+      "spec": {
+        "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+        "autosize": "none",
+        "data": [
+          {
+            "name": "flights-airport"
+          },
+          {
+            "format": {
+              "feature": "states",
+              "type": "topojson"
+            },
+            "name": "states",
+            "transform": [
+              {
+                "projection": "projection",
+                "type": "geopath"
+              }
+            ]
+          },
+          {
+            "format": {
+              "parse": "auto",
+              "type": "json"
+            },
+            "name": "traffic",
+            "source": "flights-airport",
+            "transform": [
+              {
+                "as": [
+                  "flights"
+                ],
+                "fields": [
+                  "count"
+                ],
+                "groupby": [
+                  "origin"
+                ],
+                "ops": [
+                  "sum"
+                ],
+                "type": "aggregate"
+              }
+            ]
+          },
+          {
+            "format": {
+              "parse": "auto",
+              "type": "json"
+            },
+            "name": "airports",
+            "transform": [
+              {
+                "as": [
+                  "traffic"
+                ],
+                "fields": [
+                  "iata"
+                ],
+                "from": "traffic",
+                "key": "origin",
+                "type": "lookup"
+              },
+              {
+                "expr": "datum.traffic != null",
+                "type": "filter"
+              },
+              {
+                "fields": [
+                  "longitude",
+                  "latitude"
+                ],
+                "projection": "projection",
+                "type": "geopoint"
+              },
+              {
+                "expr": "datum.x != null && datum.y != null",
+                "type": "filter"
+              },
+              {
+                "type": "voronoi",
+                "x": "x",
+                "y": "y"
+              },
+              {
+                "sort": {
+                  "field": "traffic.flights",
+                  "order": "descending"
+                },
+                "type": "collect"
+              }
+            ]
+          },
+          {
+            "format": {
+              "parse": "auto",
+              "type": "csv"
+            },
+            "name": "routes",
+            "source": "flights-airport",
+            "transform": [
+              {
+                "expr": "hover && hover.iata == datum.origin",
+                "type": "filter"
+              },
+              {
+                "as": [
+                  "source",
+                  "target"
+                ],
+                "fields": [
+                  "origin",
+                  "destination"
+                ],
+                "from": "airports",
+                "key": "iata",
+                "type": "lookup"
+              },
+              {
+                "expr": "datum.source && datum.target",
+                "type": "filter"
+              },
+              {
+                "shape": {
+                  "signal": "shape"
+                },
+                "type": "linkpath"
+              }
+            ]
+          }
+        ],
+        "height": 560,
+        "marks": [
+          {
+            "encode": {
+              "enter": {
+                "fill": {
+                  "value": "#dedede"
+                },
+                "stroke": {
+                  "value": "white"
+                }
+              },
+              "update": {
+                "path": {
+                  "field": "path"
+                }
+              }
+            },
+            "from": {
+              "data": "states"
+            },
+            "type": "path"
+          },
+          {
+            "encode": {
+              "enter": {
+                "fill": {
+                  "value": "steelblue"
+                },
+                "fillOpacity": {
+                  "value": 0.8
+                },
+                "size": {
+                  "field": "traffic.flights",
+                  "scale": "size"
+                },
+                "stroke": {
+                  "value": "white"
+                },
+                "strokeWidth": {
+                  "value": 1.5
+                }
+              },
+              "update": {
+                "x": {
+                  "field": "x"
+                },
+                "y": {
+                  "field": "y"
+                }
+              }
+            },
+            "from": {
+              "data": "airports"
+            },
+            "type": "symbol"
+          },
+          {
+            "encode": {
+              "enter": {
+                "fill": {
+                  "value": "transparent"
+                },
+                "strokeWidth": {
+                  "value": 0.35
+                }
+              },
+              "update": {
+                "path": {
+                  "field": "path"
+                },
+                "stroke": {
+                  "signal": "cell_stroke"
+                }
+              }
+            },
+            "from": {
+              "data": "airports"
+            },
+            "name": "cell",
+            "type": "path"
+          },
+          {
+            "encode": {
+              "enter": {
+                "path": {
+                  "field": "path"
+                },
+                "stroke": {
+                  "value": "black"
+                },
+                "strokeOpacity": {
+                  "value": 0.35
+                }
+              }
+            },
+            "from": {
+              "data": "routes"
+            },
+            "interactive": false,
+            "type": "path"
+          },
+          {
+            "encode": {
+              "enter": {
+                "align": {
+                  "value": "right"
+                },
+                "fill": {
+                  "value": "black"
+                },
+                "fontSize": {
+                  "value": 20
+                },
+                "x": {
+                  "value": 895
+                },
+                "y": {
+                  "value": 0
+                }
+              },
+              "update": {
+                "text": {
+                  "signal": "title"
+                }
+              }
+            },
+            "interactive": false,
+            "type": "text"
+          }
+        ],
+        "padding": {
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "top": 25
+        },
+        "projections": [
+          {
+            "name": "projection",
+            "scale": {
+              "signal": "scale"
+            },
+            "translate": [
+              {
+                "signal": "translateX"
+              },
+              {
+                "signal": "translateY"
+              }
+            ],
+            "type": "albersUsa"
+          }
+        ],
+        "scales": [
+          {
+            "domain": {
+              "data": "traffic",
+              "field": "flights"
+            },
+            "name": "size",
+            "range": [
+              16,
+              1000
+            ],
+            "type": "linear"
+          }
+        ],
+        "signals": [
+          {
+            "bind": {
+              "input": "range",
+              "max": 3000,
+              "min": 500
+            },
+            "name": "scale",
+            "value": 1200
+          },
+          {
+            "bind": {
+              "input": "range",
+              "max": 1200,
+              "min": -500
+            },
+            "name": "translateX",
+            "value": 450
+          },
+          {
+            "bind": {
+              "input": "range",
+              "max": 700,
+              "min": -300
+            },
+            "name": "translateY",
+            "value": 260
+          },
+          {
+            "bind": {
+              "input": "radio",
+              "options": [
+                "line",
+                "curve"
+              ]
+            },
+            "name": "shape",
+            "value": "line"
+          },
+          {
+            "name": "hover",
+            "on": [
+              {
+                "events": "@cell:mouseover",
+                "update": "datum"
+              },
+              {
+                "events": "@cell:mouseout",
+                "update": "null"
+              }
+            ],
+            "value": null
+          },
+          {
+            "name": "title",
+            "update": "hover ? hover.name + \' (\' + hover.iata + \')\' : \'U.S. Airports, 2008\'",
+            "value": "U.S. Airports, 2008"
+          },
+          {
+            "name": "cell_stroke",
+            "on": [
+              {
+                "events": "dblclick",
+                "update": "cell_stroke ? null : \'brown\'"
+              },
+              {
+                "events": "mousedown!",
+                "update": "cell_stroke"
+              }
+            ],
+            "value": null
+          }
+        ],
+        "width": 900
+      },
+      "specType": "vega",
+      "title": "Airports connections in the US"
+    },
+    {
+      "datahub": {
+        "type": "preview"
+      },
+      "name": "datahub-preview-flights-airport_csv_preview",
+      "resources": [
+        "flights-airport"
+      ],
+      "specType": "table",
+      "transform": {
+        "limit": 2000
+      }
+    },
+    {
+      "datahub": {
+        "type": "preview"
+      },
+      "name": "datahub-preview-airports_csv_preview",
+      "resources": [
+        "airports"
+      ],
+      "specType": "table",
+      "transform": {
+        "limit": 2000
+      }
+    }
+  ],
+  "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson/latest",
+  "formats": [
+    "csv",
+    "zip",
+    "topojson"
+  ],
+  "downloads": [
+    {
+      "name": "flights-airport",
+      "format": "csv",
+      "title": "",
+      "description": "",
+      "prettyBytes": "64kB",
+      "download": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_csv/data/flights-airport_csv.csv",
+      "otherFormats": [
+        {
+          "name": "flights-airport_json",
+          "format": "json",
+          "prettyBytes": "64kB",
+          "download": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_json/data/flights-airport_json.json"
+        }
+      ]
+    },
+    {
+      "name": "airports",
+      "format": "csv",
+      "title": "",
+      "description": "",
+      "prettyBytes": "205kB",
+      "download": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_csv/data/airports_csv.csv",
+      "otherFormats": [
+        {
+          "name": "airports_json",
+          "format": "json",
+          "prettyBytes": "205kB",
+          "download": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_json/data/airports_json.json"
+        }
+      ]
+    },
+    {
+      "name": "vega-views-tutorial-topojson_zip",
+      "format": "zip",
+      "description": "Compressed versions of dataset. Includes normalized CSV and JSON data with original data and datapackage.json.",
+      "prettyBytes": "628kB",
+      "download": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:vega-views-tutorial-topojson_zip/data/vega-views-tutorial-topojson.zip",
+      "otherFormats": []
+    },
+    {
+      "name": "states",
+      "format": "topojson",
+      "prettyBytes": "627kB",
+      "download": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:states/data/us-10m.json",
+      "otherFormats": []
+    }
+  ]
+}
