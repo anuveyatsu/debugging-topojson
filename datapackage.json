@@ -1,17 +1,4 @@
 {
-  "datahub": {
-    "findability": "published",
-    "hash": "c1003294166101ba07ea17a2613028ab",
-    "modified": "3 weeks ago",
-    "owner": "examples",
-    "ownerid": "examples",
-    "stats": {
-      "bytes": 5745285,
-      "rowcount": 8742,
-      "prettyBytes": "5MB"
-    }
-  },
-  "id": "examples/vega-views-tutorial-topojson",
   "name": "vega-views-tutorial-topojson",
   "resources": [
     {
@@ -22,7 +9,6 @@
         ],
         "type": "derived/csv"
       },
-      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
       "encoding": "utf-8",
       "format": "csv",
       "hash": "0724b14e863eda89f2aa78ca4f7732d7",
@@ -56,7 +42,6 @@
           "datahub": {
             "type": "source/tabular"
           },
-          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
           "encoding": "utf-8",
           "format": "csv",
           "name": "flights-airport",
@@ -88,7 +73,6 @@
             ],
             "type": "derived/preview"
           },
-          "dpp:streamedFrom": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_csv/data/flights-airport_csv.csv",
           "encoding": "utf-8",
           "forView": [
             "datahub-preview-flights-airport_csv_preview"
@@ -127,7 +111,6 @@
             ],
             "type": "derived/json"
           },
-          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
           "encoding": "utf-8",
           "format": "json",
           "hash": "c557eb92139cb86b77c6f9363e7c6bbb",
@@ -164,7 +147,6 @@
         ],
         "type": "derived/csv"
       },
-      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
       "encoding": "utf-8",
       "format": "csv",
       "hash": "87161615c082d48d58887450f664ca92",
@@ -216,7 +198,6 @@
           "datahub": {
             "type": "source/tabular"
           },
-          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
           "encoding": "utf-8",
           "format": "csv",
           "name": "airports",
@@ -264,7 +245,6 @@
             ],
             "type": "derived/preview"
           },
-          "dpp:streamedFrom": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_csv/data/airports_csv.csv",
           "encoding": "utf-8",
           "forView": [
             "datahub-preview-airports_csv_preview"
@@ -321,7 +301,6 @@
             ],
             "type": "derived/json"
           },
-          "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
           "encoding": "utf-8",
           "format": "json",
           "hash": "da46ba5f6603ab653fe6cec822a3f389",
@@ -372,7 +351,6 @@
         "type": "derived/zip"
       },
       "description": "Compressed versions of dataset. Includes normalized CSV and JSON data with original data and datapackage.json.",
-      "dpp:streamedFrom": "/tmp/tmp89fqdkuv/vega-views-tutorial-topojson.zip",
       "encoding": "utf-8",
       "format": "zip",
       "name": "vega-views-tutorial-topojson_zip",
@@ -385,7 +363,6 @@
       "datahub": {
         "type": "source/non-tabular"
       },
-      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/995d88a444b371520cceb4e61481060b#.topojson",
       "encoding": "utf-8",
       "format": "topojson",
       "mediatype": "application/json",
@@ -393,13 +370,6 @@
       "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:states/data/us-10m.json",
       "profile": "data-resource",
       "prettyBytes": "627kB"
-    }
-  ],
-  "sources": [
-    {
-      "name": "vega-datasets",
-      "title": "vega-datasets",
-      "web": "https://github.com/vega/vega-datasets"
     }
   ],
   "title": "Vega Graph Spec Tutorial - US Airports",
@@ -816,11 +786,6 @@
     }
   ],
   "path": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson/latest",
-  "formats": [
-    "csv",
-    "zip",
-    "topojson"
-  ],
   "downloads": [
     {
       "name": "flights-airport",
