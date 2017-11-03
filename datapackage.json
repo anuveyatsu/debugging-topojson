@@ -13,7 +13,6 @@
   },
   "id": "examples/vega-views-tutorial-topojson",
   "name": "vega-views-tutorial-topojson",
-  "profile": "data-package",
   "resources": [
     {
       "bytes": 65572,
@@ -22,13 +21,6 @@
           "flights-airport"
         ],
         "type": "derived/csv"
-      },
-      "dialect": {
-        "delimiter": ",",
-        "doubleQuote": true,
-        "lineTerminator": "\\r\\n",
-        "quoteChar": "\\"",
-        "skipInitialSpace": false
       },
       "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/0724b14e863eda89f2aa78ca4f7732d7#.csv",
       "encoding": "utf-8",
@@ -95,13 +87,6 @@
               "flights-airport"
             ],
             "type": "derived/preview"
-          },
-          "dialect": {
-            "delimiter": ",",
-            "doubleQuote": true,
-            "lineTerminator": "\\r\\n",
-            "quoteChar": "\\"",
-            "skipInitialSpace": false
           },
           "dpp:streamedFrom": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:flights-airport_csv/data/flights-airport_csv.csv",
           "encoding": "utf-8",
@@ -178,13 +163,6 @@
           "airports"
         ],
         "type": "derived/csv"
-      },
-      "dialect": {
-        "delimiter": ",",
-        "doubleQuote": true,
-        "lineTerminator": "\\r\\n",
-        "quoteChar": "\\"",
-        "skipInitialSpace": false
       },
       "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/87161615c082d48d58887450f664ca92#.csv",
       "encoding": "utf-8",
@@ -285,13 +263,6 @@
               "airports"
             ],
             "type": "derived/preview"
-          },
-          "dialect": {
-            "delimiter": ",",
-            "doubleQuote": true,
-            "lineTerminator": "\\r\\n",
-            "quoteChar": "\\"",
-            "skipInitialSpace": false
           },
           "dpp:streamedFrom": "https://pkgstore.datahub.io/examples/vega-views-tutorial-topojson:airports_csv/data/airports_csv.csv",
           "encoding": "utf-8",
