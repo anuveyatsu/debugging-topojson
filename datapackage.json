@@ -735,7 +735,7 @@
           },
           {
             "name": "title",
-            "update": "hover ? hover.name + \' (\' + hover.iata + \')\' : \'U.S. Airports, 2008\'",
+            "update": "hover ? hover.name + ' (' + hover.iata + ')' : 'U.S. Airports, 2008'",
             "value": "U.S. Airports, 2008"
           },
           {
@@ -743,7 +743,7 @@
             "on": [
               {
                 "events": "dblclick",
-                "update": "cell_stroke ? null : \'brown\'"
+                "update": "cell_stroke ? null : 'brown'"
               },
               {
                 "events": "mousedown!",
