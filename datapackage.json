@@ -377,9 +377,9 @@
     {
       "name": "airports-map-interactive",
       "resources": [
-        0,
-        1,
-        2
+        "flights-airport",
+        "airports",
+        "states"
       ],
       "spec": {
         "$schema": "https://vega.github.io/schema/vega/v3.0.json",
